@@ -88,3 +88,86 @@
     height: 30px;
 }
 
+.header-bottom .header-bottom-st-center-col-6{
+    width: 55%;
+
+}
+
+.header-bottom-st-center-col-6 .container .All-button{
+    width: 55px;
+    height: 40px;
+    background-color: hwb(240 18% 4%);
+    
+}
+.header-bottom-st-center-col-6 .container .All-button a{
+    display: flex;
+   
+   align-items: center;
+}
+.header-bottom-st-center-col-6 .container .All-button{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.header-bottom-st-center-col-6 .container .All-button a i{
+    margin-bottom: 10px;
+    margin-left: 6px;
+}
+.input input{
+    width: 18cm;
+    height: 40px;
+    border-style: solid;
+    border-color: blue;
+    
+}
+.header-bottom-st-center-col-6 .container .glass{
+    background-color: blue;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-bottom-st-center-col-6 .container{
+    display: flex;
+    justify-content: center;
+}
+.header-bottom .header-bottom-st-right-col-3{
+    width: 25%;
+}
+.header-bottom .header-bottom-st-right-col-3 .icons ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header-bottom .header-bottom-st-right-col-3 .icons ul li{
+    margin-left: 28px;
+}
+.header-bottom .header-bottom-st-right-col-3 .icons{
+    display: flex;
+    justify-content: flex-start;
+}
+.header-bottom .header-bottom-st-right-col-3 .basket{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36px;
+    border-radius: 5px;
+}
+.header-bottom .header-bottom-st-right-col-3{
+    display: flex;
+    align-items: center;
+}
+.header-bottom .header-bottom-st-right-col-3 .basket a img{
+    color: white;
+    width: 36px;
+    height: 36px;
+}
+
+ 
+    
