@@ -1,3 +1,48 @@
 @import url(../style/global.css);
 @import url(..//style/partials/header/header\ global.css);
 @import url(..//style/partials/header/header\ standart.css);
+
+#introduction{
+    width: 100%;
+    height: 750px;
+}
+#introduction .container{
+    width: 100%;
+    height: 650px;
+    background-image: url(..//assets/medya/image/run-1400x650h.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   cursor: grab;
+}
+
+#introduction .container div .first{
+    background-color: gold;
+    width: 210px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#introduction .container div .first p{
+    font-size: 26px;
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+#introduction .container div{
+    margin-left: 25px;
+   
+}
+#introduction .container div .second p{
+    font-size: 120px;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+#introduction .container div .third p{
+   font-size: 60px;
+   font-family: 'Archivo Black', sans-serif;
+   color:  rgb(61, 61, 213);
+}
+#introduction .container div .first{
+    margin-left: 33px;
+}
