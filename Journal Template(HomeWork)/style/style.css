@@ -5,15 +5,17 @@
 #introduction{
     width: 100%;
     height: 750px;
+    background-image: url(..//assets/medya/image/run-1400x650h.jpg);
 }
 #introduction .container{
     width: 100%;
     height: 650px;
-    background-image: url(..//assets/medya/image/run-1400x650h.jpg);
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
    cursor: grab;
+  
 }
 
 #introduction .container div .first{
@@ -46,3 +48,201 @@
 #introduction .container div .first{
     margin-left: 33px;
 }
+
+#introduction .branches .first-branch{
+    width: 340px;
+    height: 225px;
+    background-image: url(..//assets/medya/image/juan-pablo-rodriguez-693578-unsplash-250x150w.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.first-branch:hover {
+    transform: scale(1.5);
+  }
+  #introduction .branches .second-branch{
+    width: 340px;
+    height: 225px;
+    background-image: url(..//assets/medya/image/alora-griffiths-750367-unsplash-250x150w.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.second-branch:hover {
+    transform: scale(1.5);
+  }
+  #introduction .branches .third-branch{
+    width: 340px;
+    height: 225px;
+    background-image: url(..//assets/medya/image/justyn-warner-532062-unsplash-250x150w.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.third-branch:hover {
+    transform: scale(1.5);
+  }
+  #introduction .branches .fourth-branch{
+    width: 340px;
+    height: 225px;
+    background-image: url(..//assets/medya/image/justyn-warner-541670-unsplash-250x150w.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.fourth-branch:hover {
+    transform: scale(1.5);
+  }
+  #introduction .branches{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #introduction .branches .first-branch, .second-branch, .third-branch, .fourth-branch{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  #introduction .branches p{
+    margin-top: 25px;
+    font-size: 25px;
+  }
+  
+
+
+
+
+  
+
+  #our-products .category{
+    width: 20%;
+    height: 550px;
+    background-color: gray;
+  }
+  #our-products{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+
+  }
+  #our-products .main{
+    height: 550px;
+    background-color: rgb(73, 73, 95);
+    margin-top: 180px;
+  }
+  #our-products .main .category ul{
+    margin-top: 30px;
+    list-style-type: none;
+     
+  }
+  #our-products .main .category{
+    padding: 25px;
+    margin-left: 50px;
+  }
+  #our-products .main .category ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  #our-products .main .category ul li:hover{
+    transform: scale(1.2);
+    background-color: black;
+    border-style: solid;
+    border-radius: 7px;
+   
+  }
+  #our-products .main{
+    display: flex;
+    
+  }
+  #our-products .main .products h3{
+    color: gray;
+  }
+  #our-products .main .products{
+    width: 80%;
+    
+  }
+ 
+  
+  #our-products .main .products .top .filtered{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  #our-products .main .products .top .filtered div{
+     margin-left: 25px;
+  }
+  #our-products .main .products .top{
+    display: flex;
+    justify-content: space-between;
+  }
+  #our-products .main .products h3:hover{
+    color: white;
+    cursor: pointer;
+  }
+  #our-products .main .products .top .show-products{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+  #our-products .main .products .bottom .box{
+    width: 250px;
+    height: 400px;
+    background-color: gray;
+    transition: transform 0.5s ease;
+    padding: 10px;
+    cursor: pointer;
+  }
+  #our-products .main .products .bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 25px;
+    justify-content: space-evenly;
+  }
+  #our-products .main .products .bottom .box:hover{
+    background-color: black;
+    transform: scale(1.2);
+  }
+  #our-products .main .products .bottom .first-box .product{
+    height: 250px;
+    background-size: cover;
+    background-image: url(..//assets/medya/image/juan-pablo-rodriguez-693578-unsplash-250x150w.jpg);
+  }
+  #our-products .main .products .bottom .second-box .product{
+    height: 250px;
+    background-size: cover;
+    background-image: url(..//assets/medya/image/3-550x550.jpg);
+  }
+  #our-products .main .products .bottom .third-box .product{
+    height: 250px;
+    background-size: cover;
+    background-image: url(..//assets/medya//image/5-550x550.jpg);
+  }
+  #our-products .main .products .bottom .fourth-box .product{
+    height: 250px;
+    background-size: cover;
+    background-image: url(..//assets/medya/image/6-550x550.jpg);
+  }
+  #our-products .main .products .bottom .first-box .product:hover{
+    background-image: url(..//assets/medya/image/2b-550x550.jpg);
+  }
+  #our-products .main .products .bottom .second-box .product:hover{
+    height: 250px;
+    background-size: cover;
+    background-image: url(..//assets/medya/image/3b-550x550.jpg);
+  }
+  #our-products .main .products .bottom .third-box .product:hover{
+    height: 250px;
+    background-size: cover;
+    background-image: url(..//assets/medya/image/6b-550x550.jpg);
+  }
+  #our-products .main .products .bottom .fourth-box .product:hover{
+    height: 250px;
+    background-size: cover;
+    background-image: url(..//assets/medya/image/1-550x550.png);
+  }
